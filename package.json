@@ -1,0 +1,18 @@
+{
+  "name": "@fantaptik/webpack-config",
+  "version": "0.1.0",
+  "description": "Common webpack configuration for @fantaptik packages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "@fantaptik",
+    "webpack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "yalc": "^1.0.0-pre.42"
+  }
+}

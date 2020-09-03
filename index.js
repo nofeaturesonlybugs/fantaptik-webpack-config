@@ -1,0 +1,30 @@
+module.exports = {
+    stats : {
+        cached : true,
+        children : true,
+        chunks : true,
+        chunkGroups : true,
+        depth : true,
+        entrypoints : true,
+        modules : true,
+        moduleAssets : true,
+        modulesSort : '!size',
+        moduleTrace : true,
+        reasons : true,
+        usedExports : true,
+    },
+    externals : {
+        'materialize-css' : { root : 'M', commonjs2 : 'materialize-css', commonjs : 'materialize-css', amd : 'materialize-css' },
+        'react' : { root : 'React', commonjs2 : 'react', commonjs : 'react', amd : 'react' },
+        'react-dom' : { root : 'ReactDOM', commonjs2 : 'react-dom', commonjs : 'react-dom', amd : 'react-dom' },
+        'react-redux' : { root : 'ReactRedux', commonjs2 : 'react-redux', commonjs : 'react-redux', amd : 'react-redux' },
+        'prop-types' : { root : 'PropTypes', commonjs : 'prop-types', commonjs2 : 'prop-types', amd : 'prop-types' },
+        'redux' : { root : 'Redux', commonjs : 'redux', commonjs2 : 'redux', amd : 'redux' },
+
+        '@fantaptik/core' : { root : 'FantaptikCore', commonjs2 : '@fantaptik/core', commonjs : '@fantaptik/core', amd : '@fantaptik/core' },
+        '@fantaptik/socket' : { root : 'FantaptikSocket', commonjs2 : '@fantaptik/socket', commonjs : '@fantaptik/socket', amd : '@fantaptik/socket' },
+        '@fantaptik/material' : { root : 'FantaptikMaterial', commonjs2 : '@fantaptik/material', commonjs : '@fantaptik/material', amd : '@fantaptik/material' },
+        '@fantaptik/react-socket' : { root : 'FantaptikReactSocket', commonjs2 : '@fantaptik/react-socket', commonjs : '@fantaptik/react-socket', amd : '@fantaptik/react-socket' },
+        '@fantaptik/react-auth' : { root : 'FantaptikReactAuth', commonjs2 : '@fantaptik/react-auth', commonjs : '@fantaptik/react-auth', amd : '@fantaptik/react-auth' },
+    },
+};
