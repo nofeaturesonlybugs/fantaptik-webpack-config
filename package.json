@@ -4,6 +4,7 @@
   "description": "Common webpack configuration for @fantaptik packages.",
   "main": "index.js",
   "scripts": {
+    "yalcpush": "npx yalc publish --push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
