@@ -1,0 +1,23 @@
+{
+  "name": "@fantaptik/webpack-config",
+  "version": "0.1.0",
+  "description": "Common webpack configuration for @fantaptik packages.",
+  "main": "index.js",
+  "scripts": {
+    "yalcpush": "npx yalc publish --push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nofeaturesonlybugs/fantaptik-webpack-config.git"
+  },
+  "keywords": [
+    "@fantaptik",
+    "webpack"
+  ],
+  "author": "Nofeatures Onlybugs",
+  "license": "MIT",
+  "devDependencies": {
+    "yalc": "^1.0.0-pre.42"
+  }
+}
