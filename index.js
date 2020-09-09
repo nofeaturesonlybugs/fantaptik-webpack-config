@@ -23,7 +23,7 @@ module.exports = {
 
         '@fantaptik/core' : { root : 'FantaptikCore', commonjs2 : '@fantaptik/core', commonjs : '@fantaptik/core', amd : '@fantaptik/core' },
         '@fantaptik/socket' : { root : 'FantaptikSocket', commonjs2 : '@fantaptik/socket', commonjs : '@fantaptik/socket', amd : '@fantaptik/socket' },
-        '@fantaptik/material' : { root : 'FantaptikMaterial', commonjs2 : '@fantaptik/material', commonjs : '@fantaptik/material', amd : '@fantaptik/material' },
+        '@fantaptik/react-material' : { root : 'FantaptikReactMaterial', commonjs2 : '@fantaptik/react-material', commonjs : '@fantaptik/react-material', amd : '@fantaptik/react-material' },
         '@fantaptik/react-socket' : { root : 'FantaptikReactSocket', commonjs2 : '@fantaptik/react-socket', commonjs : '@fantaptik/react-socket', amd : '@fantaptik/react-socket' },
         '@fantaptik/react-auth' : { root : 'FantaptikReactAuth', commonjs2 : '@fantaptik/react-auth', commonjs : '@fantaptik/react-auth', amd : '@fantaptik/react-auth' },
     },
